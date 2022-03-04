@@ -28,6 +28,7 @@ function addR() {
         grid.appendChild(row);
     }
 }
+
 //Add a column
 function addC() {
     let grid = document.getElementById("grid");
