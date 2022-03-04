@@ -13,11 +13,16 @@ function addC() {
 
 //Remove a row
 function removeR() {
-    alert("Clicked Remove Row")
+    let row = grid.lastElementChild;
+    grid.removeChild(row);
 }
 //Remove a column
 function removeC() {
-    alert("Clicked Remove Col")
+    let row = document.querySelectorAll("tr"); //returns list of all row elements 
+    for(let i = 0; i < row.length; i++){ //iterates for each row
+        let col = row[i].lastElementChild; //grabs last element within row which is column
+        grid.removeChild(col);  //removes column
+    }
 }
 //sets global var for selected color
 function selected(){
