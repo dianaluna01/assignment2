@@ -1,5 +1,5 @@
 # assignment2
-## Diana Luna & Tyler Robinson
+## Diana Luna (dianaluna01) & Tyler Robinson (tsirobinson)
 
 - [x] User can add rows to the grid
 - [x] User can add columns to the grid
