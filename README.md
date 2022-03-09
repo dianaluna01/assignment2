@@ -8,5 +8,5 @@
 - [x] User can select a color from a dropdown menu of colors
 - [x] Use can click on a single cell, changing its color to the currently selected color
 - [ ] User can fill all uncolored cells with the currently selected color
-- [ ] User can fill all cells with the currently selected color
-- [ ] User can clear all cells/restore all cells to their original/initial color
+- [x] User can fill all cells with the currently selected color
+- [x] User can clear all cells/restore all cells to their original/initial color
