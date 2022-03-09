@@ -76,11 +76,17 @@ function selected(){
 }
 
 function fill(){
-    alert("Clicked Fill All")
+    let cells = document.querySelectorAll("td"); //grab all cells in grid
+    for(let i = 0; i < cells.length; i++){
+        cells[i].style.backgroundColor = colorSelected; //set cell to selected color
+    }
 }
 
 function clearAll(){
-    alert("Clicked Clear All")
+    let cells = document.querySelectorAll("td"); //grab all cells in grid
+    for(let i = 0; i < cells.length; i++){
+        cells[i].style.backgroundColor = "white"; //set cell back to white
+    }
 }
 
 function fillU(){
