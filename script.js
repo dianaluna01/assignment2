@@ -61,12 +61,13 @@ function removeR() {
     let row = grid.lastElementChild;
     grid.removeChild(row);
 }
+
 //Remove a column
 function removeC() {
     let row = document.getElementsByTagName("tr"); //returns list of all row elements 
     for(let i = 0; i < row.length; i++){ //iterates for each row
         let col = row[i].lastElementChild; //grabs last element within row which is column
-        grid.removeChild(col);  //removes column
+        row.removeChild(col);  //removes column
     }
 }
 //sets global var for selected color
