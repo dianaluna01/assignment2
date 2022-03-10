@@ -90,5 +90,10 @@ function clearAll(){
 }
 
 function fillU(){
-    alert("Clicked Fill All Uncolored")
+    let blocks = document.querySelectorAll("td"); //list of all squares
+    for(let i = 0; i < blocks.length; i++){ //will iterate through the list of all squares
+        if(blocks[i].style.backgroundColor == "white"){ //if the cell color is white:
+            blocks[i].style.backgroundColor = colorSelected; //change the color of cell to selected color
+        }
+    }
 }
