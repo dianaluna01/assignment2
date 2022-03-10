@@ -63,7 +63,7 @@ function removeR() {
 }
 //Remove a column
 function removeC() {
-    let row = document.querySelectorAll("tr"); //returns list of all row elements 
+    let row = document.getElementsByTagName("tr"); //returns list of all row elements 
     for(let i = 0; i < row.length; i++){ //iterates for each row
         let col = row[i].lastElementChild; //grabs last element within row which is column
         grid.removeChild(col);  //removes column
