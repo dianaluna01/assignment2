@@ -1,5 +1,6 @@
 # assignment2
 ## Diana Luna (dianaluna01) & Tyler Robinson (tsirobinson)
+https://dianaluna01.github.io/assignment2/
 
 - [x] User can add rows to the grid
 - [x] User can add columns to the grid
