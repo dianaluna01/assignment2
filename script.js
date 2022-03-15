@@ -58,8 +58,11 @@ function addC() {
 
 //Remove a row
 function removeR() {
-    let row = grid.lastElementChild;
-    grid.removeChild(row);
+    let rows = document.getElementsByTagName("tr"); //grab existing rows
+    if(rows.length != 0){
+        let row = grid.lastElementChild;
+        grid.removeChild(row);
+    }
 }
 
 //Remove a column
